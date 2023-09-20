@@ -43,7 +43,7 @@ def monte_carlo_multi(num_points, num_threads):
 if __name__ == "__main__":
     num_points = int(input("Введіть кількість точок для обчислення: "))
 
-    # Обчислення з одним потоком
+    # Обчислення з одним потоком1
     pi_single_thread = monte_carlo_single(num_points)
     print(f"З одним потоком: Пі приблизно {pi_single_thread}")
 
